@@ -1,0 +1,84 @@
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.swp
+*~
+
+# ===== Secrets / environment =====
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.pfx
+*.p12
+id_rsa
+id_rsa.*
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# ===== Node / JS =====
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+.pnp.*
+
+# ===== .NET / Visual Studio =====
+bin/
+obj/
+.vs/
+packages/
+*.user
+*.suo
+*.userprefs
+
+# ===== Flutter / Android / Gradle =====
+build/
+.dart_tool/
+.gradle/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+local.properties
+
+# ===== Terraform =====
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# ===== Archives (redundant / exceed GitHub size limits) =====
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# ===== Java =====
+*.class
+
+# ===== Logs / temp =====
+*.log
+
+# ===== Auto-excluded: python virtualenvs =====
+
+# ===== Auto-excluded: files > 95MB =====
+/COMP6827001 - Inisial.docx
